@@ -9,8 +9,8 @@ import Pastelicon from "../../public/pastel.png"
 export function Hero () {
     return (
 
-        <section className="bg-[url('../public/fundo_hero.jpeg')] bg-cover bg-center 
-        text-black overflow-hidden px-16 py-12 flex justify-between">
+        <section className="bg-[url('../public/fundo_hero.jpeg')] 
+        bg-repeat w-full animate-rain text-black overflow-hidden px-16 py-12 flex justify-between">
             
 
             <article className="flex flex-col justify-between">
