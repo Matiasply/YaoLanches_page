@@ -24,8 +24,12 @@ export function Hero () {
 
                 <div className="text-[#081654] px-16">
 
-                    <h3 className="text-3xl font-bold">Bateu uma fome?</h3>
-                    <p className="font-semibold">Compre já o seu salgado ou peça o seu almoço!</p>
+                    <div className="flex flex-col gap-3">
+
+                        <h3 className="text-4xl md:text-5xl">Bateu uma fome?</h3>
+                        <p className="md:text-2xl w-80">Compre já o seu salgado ou peça o seu almoço!</p>
+        
+                    </div>
 
                     <a href="#" className="flex items-center gap-2 mt-5 bg-green-500 text-white
                     px-3 py-3 rounded-2xl w-50 hover:bg-green-950">
