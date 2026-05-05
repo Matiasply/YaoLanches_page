@@ -25,3 +25,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url('/fundo.jpeg');
 }
+
+@keyframes rain {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 1254px;
+  }
+}
+
+.animate-rain {
+  animation: rain 20s linear infinite;
+}
