@@ -5,7 +5,7 @@ export function About () {
 
     return (
 
-        <section>
+        <section className="px-6 py-10">
 
             <div className="flex flex-col-reverse items-center gap-16 py-16 px-7 mt-10 rounded-2xl md:flex-row bg-[#F2E3D5]">
 
