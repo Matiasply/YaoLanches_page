@@ -17,7 +17,7 @@ export function Hero () {
 
                 <div className="container mx-auto">
 
-                    <Image src={YaoLogo} alt="Logo do Yao" className="w-100 h-100
+                    <Image src={YaoLogo} alt="Logo do Yao" loading="eager" className="w-100 h-100
                     hover:scale-110 duration-300"/>
                 
                 </div>
