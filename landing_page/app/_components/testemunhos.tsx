@@ -3,8 +3,6 @@
 import useEmblaCarousel from "embla-carousel-react"
 import {ChevronRight, ChevronLeft} from "lucide-react"
 import Image from "next/image"
-import { Like } from "./likebutton"
-import { useEffect } from "react"
 import MarmitaIcon from "../../public/marmita.png"
 
 const testemunhos = [
@@ -16,6 +14,14 @@ const testemunhos = [
         o que falar do Sr. Ysmahely com o seu bom-humor e carisma cativante? Como fera,
         me senti muito acolhido."`,
         image: "/Matias.jpeg"
+    },
+
+    {
+        name: 'Tiago Monteiro',
+        role: 'Estudante do Ensino Médio',
+        comment: `Conheci Yao Lanches através do meu irmão Matias que estuda no CI.
+        Ainda sonho com a empada de carne de sol que comi outro dia...`,
+        image: '/tiago.jpeg'
     }
 
 ]
@@ -109,6 +115,7 @@ export function Testemunhos () {
                     </button>
 
             </div>
+
         </div>
 
     </section>
