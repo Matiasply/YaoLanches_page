@@ -18,11 +18,11 @@ export function Services () {
 
             <div className="grid grid-cols-1 gap-7 lg:grid-cols-2 mt-5">
 
-                <div className="bg-[#F2E3D5] flex flex-col gap-4 justify-center items-center rounded-2xl">
+                <div className="bg-[#F2E3D5] flex flex-col gap-4 justify-center items-center rounded-2xl py-2">
 
                     <div>
 
-                        <Image src={SalgadosImage} alt="Imagem de uma empada" className="w-50 h-50 rounded-2xl"/>
+                        <Image src={SalgadosImage} alt="Imagem de uma empada" className="w-50 h-50 rounded-2xl mb-3"/>
                     
                     </div>
 
