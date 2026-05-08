@@ -22,7 +22,7 @@ export function Services () {
 
                     <div>
 
-                        <Image src={SalgadosImage} alt="Imagem de uma empada" className="w-50 h-50 rounded-2xl mb-3"/>
+                        <Image src={SalgadosImage} alt="Imagem de uma empada" className="w-50 h-50 rounded-2xl mb-3 hover:scale-110 duration-300"/>
                     
                     </div>
 
@@ -45,7 +45,7 @@ export function Services () {
 
                     <div>
 
-                        <Image src={Marmita} alt="Imagem de uma marmita" className="w-50 h-50 rounded-2xl"/>
+                        <Image src={Marmita} alt="Imagem de uma marmita" className="w-50 h-50 rounded-2xl hover:scale-110 duration-300"/>
                     
                     </div>
 
